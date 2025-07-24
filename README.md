@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Project Description
 This project is a simple authentication API built using:
 
@@ -100,7 +99,7 @@ Installation & Setup
 5. Run the Project
     node src/index.js
 
-API will run on: http://localhost:3000
+API will run on: http://localhost:port
 
 
 Note
@@ -114,5 +113,17 @@ To Do
     - Email verification
     - Frontend UI (optional)
 
+What you need to include in your .env file:
+NODE_ENV=development
+DATABASE_URL=""
+JWT_SECRET=""
+PORT=
 
->>>>>>> 5dbe4427e16960fd54d8652bfeb7357097dcf539
+GOOGLE_CLIENT_ID=.com
+GOOGLE_CLIENT_SECRET=
+
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_FROM_NUMBER=
+
+SENDGRID_API_KEY=''
