@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "OTP" ALTER COLUMN "phoneNumber" DROP NOT NULL;
